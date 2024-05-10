@@ -42,8 +42,13 @@ ul {
     display: flex;
     justify-content: center;
 }
+/*style article list*/
+.list-articles{
+    width: 50%;
+    margin: 0 auto;
 
-@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
     .footer-menu {
         flex-direction: column;
     }
@@ -55,6 +60,9 @@ ul {
         background: transparent;
         border: none;
         text-align: center;
+    }
+    .list-articles{
+        width: 100%;
     }
 
 }
@@ -101,6 +109,9 @@ ul {
     display: block;
 }
 
+.list-articles .article-item a{
+ color: #7cb600!important;
+}
 /*Mobile*/
 .mobile-dropdown-content {
     list-style: none;
